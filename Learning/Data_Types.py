@@ -1,6 +1,8 @@
 print("Ezzy Pzzy Lemon Squzyy.")
-
+# =====================
 # ===String Data type===
+# =====================
+
 
 # Literal Assignment
 firstName = "Bruce"
@@ -40,11 +42,11 @@ I was just checking .
                 Is everythingg alright!?
 """
 
-# == Esacaping Special Characters == 
+# == Esacaping Special Characters ==
 sentence = "I'm a Full Stack Developer!\n\n Heyyy!"
 
 
-# ==  String Methods == 
+# ==  String Methods ==
 print(firstName.lower())
 print(firstName.lower())
 
@@ -57,14 +59,42 @@ print(multiline.len())
 
 print("Remove whitespace")
 print(multiline.strip())
-print(multiline.ltrip())  #Left spaces
-print(multiline.rtrip())  #Right spaces
+print(multiline.ltrip())  # Left spaces
+print(multiline.rtrip())  # Right spaces
 
 
-# == string index values == 
+# == string index values ==
 print(firstName[1])
 # Last Value
 print(firstName[-1])
 # Last Value
 print(firstName[1:-1])
 print(firstName[1:])
+
+
+# ==  Boolean data type
+myBoolValue = True
+x = bool(False)
+print(type(x))
+print(isinstance(myBoolValue, bool))
+
+# =====================
+# ==  Numeric data types
+# =====================
+
+# ==  integer type
+price = 100
+best_price = int(80)
+print(type(price))
+print(isinstance(best_price, int))
+
+# float type
+gpa = 3.28
+y = float(1.14)
+print(type(gpa))
+
+
+# Casting a string to a number
+zipcode = "10001"
+zipValue = int(zipcode)
+print(type(zipValue))
